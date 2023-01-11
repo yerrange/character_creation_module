@@ -88,7 +88,6 @@ def choice_char_class() -> str:
         approve_choice: str = input('Нажми (Y), чтобы подтвердить выбор, '
                                     'или любую другую кнопку, '
                                     'чтобы выбрать другого персонажа ').lower()
-    return char_class
 
 
 if __name__ == '__main__':
